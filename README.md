@@ -1,5 +1,5 @@
 # Using different ML methods to predict accidents severity in UK
 
-This report analyses different traditional machine learning algorithms with more advanced neural network models. The data used to perform this comparison is a of a dataset consist of several thousands of road accidents happened in the UK. This data set contains various data points related to these incidences.
+This notebook analyses different traditional machine learning algorithms with more advanced neural network models. The data used to perform this comparison is a of a dataset consist of several thousands of road accidents happened in the UK. This data set contains various data points related to these incidences.
 
 From training of these algorithms, they are expected to predict the severity of the accidents. Predictions should be within three classes which as fatal, serious & slight. Each of the algorithms are trained in a rigorous manner to optimize their performance respectively. Different Hyperparameters related to each algorithm were used and compared with their accuracy. Two different pipelines were created in Sklearn library in orderly to analyze each domain of ML models. Developing a pipeline helps handling the hyper-parameters in organized way while making the other steps of the process such as feature encoding and label normalization easier.
